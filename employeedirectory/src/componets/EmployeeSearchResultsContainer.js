@@ -10,4 +10,16 @@ class EmployeeSearchResultsContainer extends Component {
         search: "",
         filteredemployees:[],
     };
+
+    get employeesinfo() {
+        return {
+            name:"",
+            email:"",
+            phone:"",
+            dob:"",
+            department:"",
+        }
+    }
+
+    componentDidMount()
 }
